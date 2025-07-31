@@ -1,0 +1,62 @@
+/* @import url("./assets/banner.jpg"); */
+/* home-page-style */
+.bannerStyle {
+  background-image: url("./assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  height: 140vh;
+  width: 100%;
+}
+.sectionH1 {
+  color: "#E56D1D";
+  font-size: 3em;
+}
+.sectionP {
+  font-size: 1.2em;
+  line-height: 25px;
+  /* padding: 0px 10px; */
+}
+.section1 {
+  height: 1000px;
+}
+.imgDiv {
+  border: 1px solid black;
+  height: 150px;
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .bannerStyle {
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    height: 810px;
+    width: 100%;
+  }
+  .sectionH1 {
+    color: "#E56D1D";
+    font-size: 4em;
+  }
+  .sectionP {
+    font-size: 1.5em;
+  }
+  .section1 {
+    height: 1000px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .section1 {
+    height: 600px;
+  }
+  .sectionH1 {
+    color: "#E56D1D";
+    font-size: 1.5em;
+  }
+  .sectionP {
+    font-size: 0.75em;
+    line-height: 16px;
+  }
+  .quota {
+    font-size: 0.85em;
+  }
+}
