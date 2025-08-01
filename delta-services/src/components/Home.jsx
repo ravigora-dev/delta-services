@@ -21,6 +21,9 @@ import commercial from "../assets/commerical-sector.jpg";
 import healthcare from "../assets/health-sector.jpg";
 import education from "../assets/education-sector.jpg";
 import retail from "../assets/retail-sector.jpg";
+import groupImg from "../assets/groupPic.jpeg";
+import companyTeam from "../assets/companyTeam.jpeg";
+import Slider from "./Slider";
 const Home = () => {
   let [img, setImg] = useState(technical1);
   let [staff, setStaff] = useState(staffing1);
@@ -293,15 +296,77 @@ const Home = () => {
       </div>
 
       {/* Section */}
-      <div
-        className="border"
-        style={{ height: "600px", backgroundColor: "#F5F8FA" }}
-      >
-        <div className="container border">
-          <div></div>
-          <div></div>
+      <div style={{ height: "840px", backgroundColor: "#F5F8FA" }}>
+        <div className="container h-100">
+          <div className="d-flex">
+            <div className="w-50 d-flex flex-column justify-content-end">
+              <img
+                src={groupImg}
+                className="w-100 h-75 object-fit-fit"
+                style={{
+                  borderLeft: "8px solid #f76606ff",
+                  borderTop: "8px solid #f76606ff",
+                }}
+              />
+            </div>
+            <div className="w-50 p-5 d-flex flex-column justify-content-end">
+              <div className="h-75 d-flex flex-column justify-content-evenly">
+                <h3>
+                  Unparalleled <br />
+                  <span style={{ color: "#51B03A" }}>Value</span>
+                </h3>
+                <p style={{ fontStyle: "italic" }}>
+                  Delta Services Facility Management Pvt. Ltd. is a trusted,
+                  single window solutions provider offering excellent facility
+                  management services to various business sectors. Our strategic
+                  advantage comes from our deep understanding of facility
+                  management, and no other company serves our clients the way we
+                  do.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="d-flex">
+            <div
+              className="d-flex flex-column justify-content-center"
+              style={{ width: "38%" }}
+            >
+              <div className="h-75 d-flex flex-column justify-content-evenly">
+                <h3>
+                  Better <br />
+                  <span style={{ color: "#51B03A" }}>Quality</span>
+                </h3>
+                <p style={{ fontStyle: "italic" }} className="pe-4">
+                  Delta Services Facility Management Pvt. Ltd. assures quality
+                  and excellence in every service we provide, customized
+                  precisely to your unique needs. We value long-term
+                  partnerships and align ourselves with your goals as trusted
+                  collaborators dedicated to delivering superior facility
+                  management solutions.
+                </p>
+              </div>
+            </div>
+            <div style={{ width: "62%" }}>
+              <img
+                src={companyTeam}
+                className="w-100 object-fit-fit"
+                style={{
+                  borderRight: "8px solid #f76606ff",
+                  borderBottom: "8px solid #f76606ff",
+                  height: "85%",
+                }}
+              />
+            </div>
+          </div>
         </div>
       </div>
+
+      <div className="mt-5 border">
+        <Slider />
+      </div>
+
+      <div className="mt-5"></div>
     </>
   );
 };
