@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-white position-sticky top-0">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-white position-sticky top-0 indexNav">
+        <div class="container-fluid ">
           <a class="navbar-brand d-flex flex-wrap align-content-end" href="#">
             <img src={logo} height={55} width={50} />
             <span className="fw-bold d-flex flex-wrap align-content-end">
