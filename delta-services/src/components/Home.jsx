@@ -24,6 +24,7 @@ import retail from "../assets/retail-sector.jpg";
 import groupImg from "../assets/groupPic.jpeg";
 import companyTeam from "../assets/companyTeam.jpeg";
 import Slider from "./Slider";
+import Carousel from "./Carousel";
 const Home = () => {
   let [img, setImg] = useState(technical1);
   let [staff, setStaff] = useState(staffing1);
@@ -362,8 +363,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mt-5 border">
+      <div className="mt-5">
         <Slider />
+      </div>
+
+      <div className="mt-5">
+        <Carousel />
       </div>
 
       <div className="mt-5"></div>
