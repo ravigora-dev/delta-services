@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <nav class="navbar navbar-expand-lg bg-white position-sticky top-0 indexNav">
         <div class="container-fluid ">
-          <a class="navbar-brand d-flex flex-wrap align-content-end" href="#">
+          <Link class="navbar-brand d-flex flex-wrap align-content-end" to="/">
             <img src={logo} height={55} width={50} />
             <span className="fw-bold d-flex flex-wrap align-content-end">
               <div className="mt-2">
@@ -26,7 +26,7 @@ const Navbar = () => {
                 </b>
               </div>
             </span>
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -45,19 +45,19 @@ const Navbar = () => {
             <div className="w-50">
               <ul class="navbar-nav fs-5 fw-semibold">
                 <li class="nav-item">
-                  <Link class="nav-link active" aria-current="page" to="/">
+                  <Link class="nav-link active" aria-current="page" to="/home">
                     Home
                   </Link>
                 </li>
                 <li class="nav-item mx-lg-3">
-                  <a class="nav-link" href="#">
+                  <Link to="/about" class="nav-link" href="#">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <Link class="nav-link" to="/services">
                     Services
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

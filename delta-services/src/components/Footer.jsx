@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import { MdMarkEmailRead } from "react-icons/md";
 import { FaPhoneVolume } from "react-icons/fa6";
-const Footer = () => {
+let Footer = () => {
   return (
     <>
       <div style={{ backgroundColor: "#E56D1D" }} className="h-100">

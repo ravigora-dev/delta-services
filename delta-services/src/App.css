@@ -83,6 +83,28 @@
 .footerP {
   width: 50%;
 }
+.aboutDiv {
+  height: 400px;
+}
+.aboutP {
+  padding: 0px 30px;
+}
+.mainContainer {
+  height: 480px;
+}
+.sliderContainer {
+  height: 480px;
+  width: 100%;
+}
+.slicker {
+  height: 480px;
+  width: 100%;
+}
+.slickImg {
+  height: 480px;
+  width: 60%;
+  object-fit: cover;
+}
 @media (min-width: 993px) and (max-width: 1200px) {
   .section1 {
     height: 1200px;
@@ -140,6 +162,27 @@
   }
   .footerP {
     width: 50%;
+  }
+  .aboutP {
+    padding: 0px 20px;
+    font-size: 0.9em;
+    line-height: 18px;
+  }
+  .mainContainer {
+    height: 400px;
+  }
+  .sliderContainer {
+    height: 400px;
+    width: 100%;
+  }
+  .slicker {
+    height: 400px;
+    width: 100%;
+  }
+  .slickImg {
+    height: 400px;
+    width: 60%;
+    object-fit: cover;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -201,5 +244,29 @@
   }
   .footerP {
     width: auto;
+  }
+  .aboutQuota {
+    font-size: 0.9em;
+  }
+  .aboutP {
+    padding: 0px 20px;
+    font-size: 0.72em;
+    line-height: 18px;
+  }
+  .mainContainer {
+    height: 300px;
+  }
+  .sliderContainer {
+    height: 300px;
+    width: 100%;
+  }
+  .slicker {
+    height: 300px;
+    width: 100%;
+  }
+  .slickImg {
+    height: 300px;
+    width: 70%;
+    object-fit: cover;
   }
 }
