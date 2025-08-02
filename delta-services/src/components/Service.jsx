@@ -21,6 +21,12 @@ import slick16 from "../assets/slick16.jpeg";
 import slick17 from "../assets/slick17.jpeg";
 import slick18 from "../assets/slick18.jpeg";
 import slick19 from "../assets/slick19.jpeg";
+import softImg from "../assets/softService.jpg";
+import technical from "../assets/technicalService.jpg";
+import security from "../assets/securityGuard.jpg";
+import special from "../assets/specialService.jpg";
+import business from "../assets/businessSupprt.jpg";
+import pest from "../assets/pestControl.jpg";
 import Footer from "./Footer";
 const Service = () => {
   const [showSlider, setShowSlider] = useState(false);
@@ -97,16 +103,22 @@ const Service = () => {
         </div>
       </div>
 
-      <div className="mt-5">
-        <div className="row row-cols-lg-3">
-          <div className="col-lg-4">
-            <div>
-              <div>
-                <img src="" />
+      <div className="mt-5 container" style={{ height: "900px" }}>
+        <div className="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 g-4">
+          <div className="col-lg-4 border">
+            <div
+              style={{ height: "400px" }}
+              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+            >
+              <div style={{ width: "85%" }}>
+                <img
+                  src={softImg}
+                  className="h-100 w-100 rounded-4 object-fit-fit"
+                />
               </div>
               <div>
                 <h5>Soft Services</h5>
-                <ul>
+                <ul style={{ fontSize: "0.85em" }}>
                   <li>Housekeeping</li>
                   <li>Pantry Support Services</li>
                   <li>Office Boys</li>
@@ -115,11 +127,121 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4"></div>
-          <div className="col-lg-4"></div>
-          <div className="col-lg-4"></div>
-          <div className="col-lg-4"></div>
-          <div className="col-lg-4"></div>
+
+          <div className="col-lg-4 border">
+            <div
+              style={{ height: "400px" }}
+              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+            >
+              <div style={{ width: "85%" }}>
+                <img
+                  src={technical}
+                  className="h-100 w-100 rounded-4 object-fit-fit"
+                />
+              </div>
+              <div>
+                <h5>Technical Services</h5>
+                <ul style={{ fontSize: "0.85em" }}>
+                  <li>Operation & Maintenance</li>
+                  <li>Electrical/BMS/Plumbing/Carpentry/HVAC</li>
+                  <li>Water treatment system/Fire & Safety System</li>
+                  <li>Project Management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 border">
+            <div
+              style={{ height: "400px" }}
+              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+            >
+              <div style={{ width: "85%" }}>
+                <img
+                  src={security}
+                  className="h-100 w-100 rounded-4 object-fit-fit"
+                />
+              </div>
+              <div>
+                <h5>Security Services</h5>
+                <ul style={{ fontSize: "0.85em" }}>
+                  <li>Corporate Security Guards</li>
+                  <li>Residential Gatekeepers</li>
+                  <li>Security Supervisors</li>
+                  <li>CCTV Surveillance Guards</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 border">
+            <div
+              style={{ height: "400px" }}
+              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+            >
+              <div style={{ width: "85%" }}>
+                <img
+                  src={special}
+                  className="h-100 w-100 rounded-4 object-fit-fit"
+                />
+              </div>
+              <div>
+                <h5>Special Services</h5>
+                <ul style={{ fontSize: "0.85em" }}>
+                  <li>Carpet Shampooing</li>
+                  <li>Stone Care</li>
+                  <li>Home Care</li>
+                  <li>Project Cleaning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 border">
+            <div
+              style={{ height: "400px" }}
+              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+            >
+              <div style={{ width: "85%" }}>
+                <img
+                  src={business}
+                  className="h-100 w-100 rounded-4 object-fit-fit"
+                />
+              </div>
+              <div>
+                <h5>Business Support Services</h5>
+                <ul style={{ fontSize: "0.85em" }}>
+                  <li>Staffing & Payroll Services</li>
+                  <li>Office Support</li>
+                  <li>Reception & Helpdesk</li>
+                  <li>Mailroom Services</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 border">
+            <div
+              style={{ height: "400px" }}
+              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+            >
+              <div style={{ width: "85%" }}>
+                <img
+                  src={pest}
+                  className="h-100 w-100 rounded-4 object-fit-fit"
+                />
+              </div>
+              <div>
+                <h5>Pest Control Services</h5>
+                <ul style={{ fontSize: "0.85em" }}>
+                  <li>General disinfection</li>
+                  <li>Rodent control</li>
+                  <li>Fumigation</li>
+                  <li>Anti–larvae treatment</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
