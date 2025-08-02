@@ -52,7 +52,37 @@
   display: block;
   transition: background-color 0.2s linear 0.3s;
 }
-
+.section {
+  height: 840px;
+}
+.sectionP1 {
+  font-size: 1em;
+  /* line-height: 16px; */
+}
+.secionDiv {
+  padding: 20px;
+}
+.sliderDiv {
+  height: 300px;
+}
+.sliderP {
+  padding: 10px;
+}
+.carouselDiv {
+  height: 600px;
+}
+.companyHover {
+  color: white;
+}
+.companyHover:hover {
+  color: black;
+}
+.footerDiv {
+  height: 300px;
+}
+.footerP {
+  width: 50%;
+}
 @media (min-width: 993px) and (max-width: 1200px) {
   .section1 {
     height: 1200px;
@@ -91,6 +121,26 @@
   .indexH {
     font-size: 15px;
   }
+  .section {
+    height: 550px;
+  }
+  .sectionP1 {
+    font-size: 0.75em;
+    line-height: 16px;
+  }
+  .secionDiv {
+    padding: 15px;
+  }
+  .sectionH3 {
+    font-size: 1.2em;
+  }
+  .sliderDiv h3 {
+    font-size: 1.7em;
+    padding-bottom: 25px;
+  }
+  .footerP {
+    width: 50%;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .section1 {
@@ -120,5 +170,36 @@
   }
   .indexH {
     font-size: 12px;
+  }
+  .section {
+    height: 430px;
+  }
+  .sectionP1 {
+    font-size: 0.7em;
+    line-height: 10.5px;
+  }
+  .secionDiv {
+    padding: 10px;
+  }
+  .sectionH3 {
+    font-size: 0.9em;
+  }
+  .sliderDiv {
+    height: 200px;
+  }
+  .sliderP {
+    padding: 3px;
+    font-size: 0.72em;
+    line-height: 13px;
+  }
+  .sliderDiv h3 {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+  }
+  .sliderH5 {
+    font-size: 1em;
+  }
+  .footerP {
+    width: auto;
   }
 }

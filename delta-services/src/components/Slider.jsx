@@ -90,7 +90,7 @@
 // };
 
 import React, { useState } from "react";
-
+import "../App.css";
 const testimonials = [
   {
     text: `My Home Group is extremely satisfied with the cleaning and
@@ -155,8 +155,8 @@ function Slider() {
   };
 
   return (
-    <div style={{ height: "300px" }}>
-      <h3 className="text-center">Testimonial</h3>
+    <div className="sliderDiv">
+      <h3 className="text-center ">Testimonial</h3>
       <div className="d-flex  container h-50 align-items-center">
         <button
           className="d-flex btn btn-primary flex-column justify-content-center align-items-center"
@@ -171,10 +171,10 @@ function Slider() {
             className="d-flex h-100 flex-column justify-content-between"
             style={{ fontStyle: "italic" }}
           >
-            <p className="p-3 text-center" style={{ textAlign: "center" }}>
+            <p className="text-center sliderP" style={{ textAlign: "center" }}>
               {testimonials[currentIndex].text}
             </p>
-            <h5 className="fw-bold text-center m-0">
+            <h5 className="fw-bold text-center m-0 sliderH5">
               {testimonials[currentIndex].company}
             </h5>
           </div>

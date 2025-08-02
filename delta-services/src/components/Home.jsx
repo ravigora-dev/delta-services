@@ -25,6 +25,7 @@ import groupImg from "../assets/groupPic.jpeg";
 import companyTeam from "../assets/companyTeam.jpeg";
 import Slider from "./Slider";
 import Carousel from "./Carousel";
+import Footer from "./Footer";
 const Home = () => {
   let [img, setImg] = useState(technical1);
   let [staff, setStaff] = useState(staffing1);
@@ -224,7 +225,7 @@ const Home = () => {
 
       {/* Out business sector */}
 
-      <div className=" mt-lg-5 ">
+      <div className=" mt-lg-5">
         <div className=" w-100">
           <div className="d-flex flex-wrap">
             <div className="w-25">
@@ -297,7 +298,7 @@ const Home = () => {
       </div>
 
       {/* Section */}
-      <div style={{ height: "840px", backgroundColor: "#F5F8FA" }}>
+      <div style={{ backgroundColor: "#F5F8FA" }} className="section">
         <div className="container h-100">
           <div className="d-flex">
             <div className="w-50 d-flex flex-column justify-content-end">
@@ -310,13 +311,13 @@ const Home = () => {
                 }}
               />
             </div>
-            <div className="w-50 p-5 d-flex flex-column justify-content-end">
+            <div className="w-50 secionDiv d-flex flex-column justify-content-end">
               <div className="h-75 d-flex flex-column justify-content-evenly">
-                <h3>
+                <h3 className="sectionH3">
                   Unparalleled <br />
                   <span style={{ color: "#51B03A" }}>Value</span>
                 </h3>
-                <p style={{ fontStyle: "italic" }}>
+                <p style={{ fontStyle: "italic" }} className="sectionP1">
                   Delta Services Facility Management Pvt. Ltd. is a trusted,
                   single window solutions provider offering excellent facility
                   management services to various business sectors. Our strategic
@@ -334,11 +335,14 @@ const Home = () => {
               style={{ width: "38%" }}
             >
               <div className="h-75 d-flex flex-column justify-content-evenly">
-                <h3>
+                <h3 className="sectionH3">
                   Better <br />
                   <span style={{ color: "#51B03A" }}>Quality</span>
                 </h3>
-                <p style={{ fontStyle: "italic" }} className="pe-4">
+                <p
+                  style={{ fontStyle: "italic" }}
+                  className="pe-lg-4 pe-md-3 pe-sm-2 sectionP1"
+                >
                   Delta Services Facility Management Pvt. Ltd. assures quality
                   and excellence in every service we provide, customized
                   precisely to your unique needs. We value long-term
@@ -367,11 +371,13 @@ const Home = () => {
         <Slider />
       </div>
 
-      <div className="mt-5">
+      <div className="mt-5 carouselDiv">
         <Carousel />
       </div>
 
-      <div className="mt-5"></div>
+      <div className="mt-5 footerDiv">
+        <Footer />
+      </div>
     </>
   );
 };
