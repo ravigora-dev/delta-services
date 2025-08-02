@@ -105,10 +105,10 @@ const Service = () => {
 
       <div className="mt-5 container" style={{ height: "900px" }}>
         <div className="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 g-4">
-          <div className="col-lg-4 border">
+          <div className="col-lg-4">
             <div
               style={{ height: "400px" }}
-              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+              className="d-flex flex-column flex-wrap justify-content-evenly align-content-center "
             >
               <div style={{ width: "85%" }}>
                 <img
@@ -128,10 +128,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 border">
+          <div className="col-lg-4">
             <div
               style={{ height: "400px" }}
-              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+              className="d-flex flex-column flex-wrap justify-content-evenly align-content-center "
             >
               <div style={{ width: "85%" }}>
                 <img
@@ -151,10 +151,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 border">
+          <div className="col-lg-4">
             <div
               style={{ height: "400px" }}
-              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+              className="d-flex flex-column flex-wrap justify-content-evenly align-content-center "
             >
               <div style={{ width: "85%" }}>
                 <img
@@ -174,10 +174,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 border">
+          <div className="col-lg-4">
             <div
               style={{ height: "400px" }}
-              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+              className="d-flex flex-column flex-wrap justify-content-evenly align-content-center "
             >
               <div style={{ width: "85%" }}>
                 <img
@@ -197,10 +197,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 border">
+          <div className="col-lg-4">
             <div
               style={{ height: "400px" }}
-              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+              className="d-flex flex-column flex-wrap justify-content-evenly align-content-center "
             >
               <div style={{ width: "85%" }}>
                 <img
@@ -220,10 +220,10 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 border">
+          <div className="col-lg-4">
             <div
               style={{ height: "400px" }}
-              className="border d-flex flex-column flex-wrap justify-content-evenly align-content-center "
+              className="d-flex flex-column flex-wrap justify-content-evenly align-content-center "
             >
               <div style={{ width: "85%" }}>
                 <img
