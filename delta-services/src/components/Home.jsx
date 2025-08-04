@@ -298,7 +298,7 @@ const Home = () => {
       </div>
 
       {/* Section */}
-      <div style={{ backgroundColor: "#F5F8FA" }} className="section">
+      <div style={{ backgroundColor: "#F5F8FA" }} className="section mt-5">
         <div className="container h-100">
           <div className="d-flex">
             <div className="w-50 d-flex flex-column justify-content-end">
