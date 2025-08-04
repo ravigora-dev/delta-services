@@ -372,10 +372,10 @@ const Home = () => {
       </div>
 
       <div className="carouselDiv">
-        <Carousel />
+        <Carousel className="border" />
       </div>
 
-      <div className="mt-5 footerDiv">
+      <div className=" footerDiv">
         <Footer />
       </div>
     </>

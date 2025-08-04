@@ -15,109 +15,199 @@ let Carousel = () => {
   return (
     <>
       <div className="container rounded-3">
-        <h2 className="text-center mb-5">Our Team</h2>
+        <h2 className="text-center mb-4 py-2">Our Team</h2>
         <div
           id="carouselExampleInterval"
           className="carousel slide rounded-3"
           data-bs-ride="carousel"
-          style={{ height: "500px" }}
+          style={{ height: "450px" }}
         >
-          <div className="carousel-inner">
+          <div className="carousel-inner rounded-3">
             <div class="carousel-item active" data-bs-interval="1000">
-              <img
-                src={team1}
-                className="d-block object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
-                alt="..."
-              />
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team1}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item " data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team2}
-                className="d-block object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team2}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item " data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team3}
-                className="d-block object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team3}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item" data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team4}
-                className="d-block  object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block  object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team4}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item " data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team5}
-                className="d-block  object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block  object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team5}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item " data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team6}
-                className="d-block  object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block  object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team6}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item " data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team7}
-                className="d-block  object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block  object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team7}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item " data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team8}
-                className="d-block  object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block  object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team8}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item " data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team9}
-                className="d-block object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team9}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item " data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team10}
-                className="d-block  object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block  object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team10}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item " data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team11}
-                className="d-block object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team11}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
             <div className="carousel-item" data-bs-interval="1000">
-              <img
+              {/* <img
                 src={team12}
-                className="d-block  object-fit-fit rounded-3"
-                style={{ width: "100%", height: "500px" }}
+                className="d-block  object-fit-cover rounded-3"
+                style={{ width: "100%", height: "450px" }}
                 alt="..."
-              />
+              /> */}
+              <div className="d-flex justify-content-center">
+                <img
+                  src={team12}
+                  className="d-block object-fit-cover rounded-3"
+                  style={{ width: "80%", height: "450px" }}
+                  alt="..."
+                />
+              </div>
             </div>
           </div>
           <button
@@ -127,19 +217,19 @@ let Carousel = () => {
             data-bs-slide="prev"
           >
             <span
-              className="carousel-control-prev-icon"
+              className="carousel-control-prev-icon bg-secondary rounded-circle"
               aria-hidden="true"
             ></span>
             <span className="visually-hidden">Previous</span>
           </button>
           <button
-            className="carousel-control-next"
+            className="carousel-control-next "
             type="button"
             data-bs-target="#carouselExampleInterval"
             data-bs-slide="next"
           >
             <span
-              className="carousel-control-next-icon"
+              className="carousel-control-next-icon bg-secondary rounded-circle"
               aria-hidden="true"
             ></span>
             <span className="visually-hidden">Next</span>
