@@ -156,7 +156,7 @@ function Slider() {
 
   return (
     <div className="sliderDiv">
-      <h3 className="text-center ">Testimonial</h3>
+      <h3 className="text-center slideH">Testimonial</h3>
       <div className="d-flex  container h-50 align-items-center">
         <button
           className="d-flex btn btn-primary flex-column justify-content-center align-items-center"

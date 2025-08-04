@@ -103,7 +103,7 @@ const Service = () => {
         </div>
       </div>
 
-      <div className="mt-5 container" style={{ height: "900px" }}>
+      <div className="mt-5 container serviceContainer">
         <div className="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 g-4">
           <div className="col-lg-4">
             <div
@@ -118,7 +118,7 @@ const Service = () => {
               </div>
               <div>
                 <h5>Soft Services</h5>
-                <ul style={{ fontSize: "0.85em" }}>
+                <ul className="serviceUl">
                   <li>Housekeeping</li>
                   <li>Pantry Support Services</li>
                   <li>Office Boys</li>
@@ -141,10 +141,10 @@ const Service = () => {
               </div>
               <div>
                 <h5>Technical Services</h5>
-                <ul style={{ fontSize: "0.85em" }}>
+                <ul className="serviceUl">
                   <li>Operation & Maintenance</li>
-                  <li>Electrical/BMS/Plumbing/Carpentry/HVAC</li>
-                  <li>Water treatment system/Fire & Safety System</li>
+                  <li>Electrical/BMS/Plumbing/Carpentry</li>
+                  <li>Water treatment/Fire&Safety System</li>
                   <li>Project Management</li>
                 </ul>
               </div>
@@ -164,7 +164,7 @@ const Service = () => {
               </div>
               <div>
                 <h5>Security Services</h5>
-                <ul style={{ fontSize: "0.85em" }}>
+                <ul className="serviceUl">
                   <li>Corporate Security Guards</li>
                   <li>Residential Gatekeepers</li>
                   <li>Security Supervisors</li>
@@ -187,7 +187,7 @@ const Service = () => {
               </div>
               <div>
                 <h5>Special Services</h5>
-                <ul style={{ fontSize: "0.85em" }}>
+                <ul className="serviceUl">
                   <li>Carpet Shampooing</li>
                   <li>Stone Care</li>
                   <li>Home Care</li>
@@ -210,7 +210,7 @@ const Service = () => {
               </div>
               <div>
                 <h5>Business Support Services</h5>
-                <ul style={{ fontSize: "0.85em" }}>
+                <ul className="serviceUl">
                   <li>Staffing & Payroll Services</li>
                   <li>Office Support</li>
                   <li>Reception & Helpdesk</li>
@@ -233,7 +233,7 @@ const Service = () => {
               </div>
               <div>
                 <h5>Pest Control Services</h5>
-                <ul style={{ fontSize: "0.85em" }}>
+                <ul className="serviceUl">
                   <li>General disinfection</li>
                   <li>Rodent control</li>
                   <li>Fumigation</li>

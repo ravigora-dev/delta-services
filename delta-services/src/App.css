@@ -23,6 +23,12 @@
 .section1 {
   height: 1000px;
 }
+.sectionImg {
+  height: 70%;
+  width: 80%;
+  object-fit: fill;
+}
+
 .iconMainDiv {
   height: 140px;
 }
@@ -105,6 +111,12 @@
   width: 60%;
   object-fit: cover;
 }
+.serviceContainer {
+  height: 900px;
+}
+.serviceUl {
+  font-size: 0.85em;
+}
 @media (min-width: 993px) and (max-width: 1200px) {
   .section1 {
     height: 1200px;
@@ -186,6 +198,15 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+  .bannerStyle {
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    height: 400px;
+    width: 100%;
+    border: 1px solid red;
+  }
   .section1 {
     height: 600px;
   }
@@ -268,5 +289,92 @@
     height: 300px;
     width: 70%;
     object-fit: cover;
+  }
+  .serviceContainer {
+    height: 1200px;
+  }
+  .serviceUl {
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .bannerStyle {
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .section1 {
+    height: 800px;
+    /* border: 1px solid yellow; */
+    flex-wrap: wrap;
+  }
+  .sectionH1 {
+    color: "#E56D1D";
+    font-size: 1em;
+    padding: 0px 5px;
+  }
+  .sectionP {
+    font-size: 0.8em;
+    line-height: 13px;
+    padding: 0px 5px;
+  }
+  .quota {
+    font-size: 0.75em;
+    padding: 0px 5px;
+  }
+  .sectionImg {
+    height: 50%;
+    width: 90%;
+    object-fit: fill;
+  }
+  .homeIconContainer {
+    height: 720px;
+  }
+  .serviceContainer {
+    height: 2500px;
+  }
+  .section {
+    height: 480px;
+  }
+  .sectionH3 {
+    font-size: 0.85em;
+  }
+  .sectionP1 {
+    font-size: 0.65em;
+    line-height: 10px;
+    height: 150px;
+  }
+  .secionDiv {
+    padding: 8px;
+  }
+  .sliderMainDiv {
+    height: 400px;
+    /* padding-top: 120px; */
+  }
+  .sliderDiv {
+    margin-top: 13.75%;
+  }
+  .sliderP {
+    font-size: 0.65em;
+    line-height: 10px;
+  }
+  .slideH {
+    margin-bottom: 60px;
+  }
+  .sliderH5 {
+    font-size: 1em;
+  }
+  .footerP {
+    font-size: 0.75em;
+    padding: 0px 5px;
+    width: 100%;
+  }
+  .footerEmailP {
+    font-size: 0.75em;
   }
 }

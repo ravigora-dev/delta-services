@@ -133,14 +133,14 @@ const Home = () => {
         <div className="h-100 w-50 d-flex justify-content-center flex-wrap align-content-center">
           <img
             src={sectionPic}
-            height="70%"
-            width="80%"
-            className="object-fit-fit border"
+            // height="70%"
+            // width="80%"
+            className="sectionImg"
           />
         </div>
       </div>
 
-      <div className="container">
+      <div className="container homeIconContainer">
         <div className="row row-cols-lg-6  row-cols-md-3 row-cols-md-2 iconMainDiv">
           <div className="col-lg-2 col-md-4">
             <div
@@ -367,11 +367,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mt-5">
+      <div className="sliderMainDiv">
         <Slider />
       </div>
 
-      <div className="mt-5 carouselDiv">
+      <div className="carouselDiv">
         <Carousel />
       </div>
 

@@ -13,7 +13,7 @@ let Footer = () => {
             Avenue,Plot No-17 Kartika Layout,Jai Hind Enclave
             Madhapur,Hyderabad-500081
           </p>
-          <p className="text-center">
+          <p className="text-center footerEmailP">
             <span>
               <MdMarkEmailRead className="text-dark" />{" "}
               Rajinikanth.Cheera@deltaservices.co.in
@@ -22,7 +22,7 @@ let Footer = () => {
               <FaPhoneVolume className="text-dark" /> +91 95331 51277
             </span>
           </p>
-          <div className="text-center">
+          <div className="text-center footerEmailP">
             © 2025 Delta Services. | Powered by :{" "}
             <a
               href="https://errortechnologies.com/"
