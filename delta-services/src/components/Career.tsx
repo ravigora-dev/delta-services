@@ -1,4 +1,4 @@
-import { Briefcase, Check, Users, Target, Mail, Phone } from "lucide-react";
+import { Briefcase, Check, Users, Target, Mail } from "lucide-react";
 
 const Career = () => {
   return (

@@ -43,38 +43,38 @@ const About = () => {
     },
   ];
 
-  const milestones = [
-    {
-      year: "2015",
-      event: "Company Founded",
-      description:
-        "Delta Services was established with a vision to transform facility management in India.",
-    },
-    {
-      year: "2017",
-      event: "First Major Contract",
-      description:
-        "Secured our first major corporate facility management contract, marking our entry into the enterprise market.",
-    },
-    {
-      year: "2019",
-      event: "Service Expansion",
-      description:
-        "Expanded our service portfolio to include technical, security, and specialized facility management solutions.",
-    },
-    {
-      year: "2021",
-      event: "Digital Transformation",
-      description:
-        "Implemented advanced digital solutions and IoT-based monitoring systems for enhanced service delivery.",
-    },
-    {
-      year: "2023",
-      event: "Market Leadership",
-      description:
-        "Achieved recognition as a leading facility management provider across multiple industry sectors.",
-    },
-  ];
+  // const milestones = [
+  //   {
+  //     year: "2015",
+  //     event: "Company Founded",
+  //     description:
+  //       "Delta Services was established with a vision to transform facility management in India.",
+  //   },
+  //   {
+  //     year: "2017",
+  //     event: "First Major Contract",
+  //     description:
+  //       "Secured our first major corporate facility management contract, marking our entry into the enterprise market.",
+  //   },
+  //   {
+  //     year: "2019",
+  //     event: "Service Expansion",
+  //     description:
+  //       "Expanded our service portfolio to include technical, security, and specialized facility management solutions.",
+  //   },
+  //   {
+  //     year: "2021",
+  //     event: "Digital Transformation",
+  //     description:
+  //       "Implemented advanced digital solutions and IoT-based monitoring systems for enhanced service delivery.",
+  //   },
+  //   {
+  //     year: "2023",
+  //     event: "Market Leadership",
+  //     description:
+  //       "Achieved recognition as a leading facility management provider across multiple industry sectors.",
+  //   },
+  // ];
 
   return (
     <div className="min-h-screen bg-white">
