@@ -1,13 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon_io/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Delta Services - Facility Management Solutions</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Delta Services offers comprehensive facility management solutions including technical services, soft services, security, and pest control for residential, commercial, corporate, industrial, health, retail, and education sectors."
+    />
+    <meta
+      name="keywords"
+      content="facility management, technical services, soft services, security services, pest control, property maintenance, Delta Services"
+    />
+    <meta name="author" content="Delta Services" />
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta
+      property="og:title"
+      content="Delta Services - Facility Management Solutions"
+    />
+    <meta
+      property="og:description"
+      content="Comprehensive facility management solutions for all sectors. Technical services, soft services, security, and pest control."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://deltaservices.com" />
+    <meta property="og:image" content="/assets/logoPng.png" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Delta Services - Facility Management Solutions"
+    />
+    <meta
+      name="twitter:description"
+      content="Comprehensive facility management solutions for all sectors."
+    />
+    <meta name="twitter:image" content="/assets/logoPng.png" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://deltaservices.com" />
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root" role="main"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Delta Services",
+        "description": "Facility Management Solutions",
+        "url": "https://deltaservices.com",
+        "logo": "https://deltaservices.com/assets/logoPng.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "",
+          "contactType": "customer service"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": ""
+        },
+        "sameAs": ["", "", ""]
+      }
+    </script>
   </body>
 </html>
