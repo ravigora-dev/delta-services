@@ -1,228 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delta Services - Coming Soon</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon_io/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delta Services - Facility Management Solutions</title>
 
-        body {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f0f2f5;
-            overflow: hidden; /* Prevent scroll for the background */
-        }
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Delta Services offers comprehensive facility management solutions including technical services, soft services, security, and pest control for residential, commercial, corporate, industrial, health, retail, and education sectors."
+    />
+    <meta
+      name="keywords"
+      content="facility management, technical services, soft services, security services, pest control, property maintenance, Delta Services"
+    />
+    <meta name="author" content="Delta Services" />
 
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            background-color: #fff;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            position: relative;
-        }
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta
+      property="og:title"
+      content="Delta Services - Facility Management Solutions"
+    />
+    <meta
+      property="og:description"
+      content="Comprehensive facility management solutions for all sectors. Technical services, soft services, security, and pest control."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://deltaservices.com" />
+    <meta property="og:image" content="/assets/logoPng.png" />
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 40px;
-            border-bottom: 1px solid #eee;
-            background-color: #fff;
-            position: relative;
-            z-index: 2; /* Ensure header is above the main content's pseudo-elements */
-        }
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Delta Services - Facility Management Solutions"
+    />
+    <meta
+      name="twitter:description"
+      content="Comprehensive facility management solutions for all sectors."
+    />
+    <meta name="twitter:image" content="/assets/logoPng.png" />
 
-        .logo {
-            display: flex;
-            align-items: center;
-        }
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://deltaservices.com" />
+  </head>
+  <body>
+    <div id="root" role="main"></div>
+    <script type="module" src="/src/main.tsx"></script>
 
-        .logo-text {
-            font-weight: 700;
-            font-size: 24px;
-            color: #1a237e; /* Dark Blue */
-            margin-left: 10px;
-        }
-
-        .logo-small-text {
-            font-size: 14px;
-            font-weight: 400;
-            color: #3f51b5; /* Medium Blue */
-            margin-left: 5px;
-        }
-
-        nav a {
-            margin-left: 25px;
-            text-decoration: none;
-            color: #333;
-            font-weight: 500;
-        }
-
-        .main-content {
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            height: 600px; /* Adjust as needed */
-            overflow: hidden;
-            z-index: 1;
-        }
-
-        .main-content::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #FFEB3B 0%, #FFC107 50%, #FF9800 100%); /* Lemon Yellow to Orange Gradient */
-            transform: skewY(-8deg); /* Slight skew to match the image */
-            transform-origin: top left;
-            z-index: -1;
-        }
-
-        .main-content::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(45deg, #2196F3 0%, #3F51B5 100%); /* Blue Gradient */
-            transform: skewY(8deg); /* Opposite skew */
-            transform-origin: bottom right;
-            z-index: -2;
-        }
-
-        .content-wrapper {
-            position: relative;
-            z-index: 3; /* Ensure content is above gradients */
-            color: #fff;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        }
-
-        .coming-soon {
-            font-size: 72px;
-            font-weight: 700;
-            color: #FFEB3B; /* Lemon Yellow */
-            margin-bottom: 30px;
-            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-        }
-
-        .subscribe-button {
-            display: inline-block;
-            padding: 15px 30px;
-            background: linear-gradient(90deg, #FFC107 0%, #FF9800 100%); /* Orange to Darker Orange */
-            color: #fff;
-            text-decoration: none;
-            border-radius: 50px;
-            font-size: 20px;
-            font-weight: 600;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 5px 15px rgba(255, 152, 0, 0.4);
-        }
-
-        .subscribe-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(255, 152, 0, 0.6);
-        }
-
-        .menu-icon, .search-icon {
-            font-size: 28px;
-            color: #333;
-            cursor: pointer;
-            margin-left: 20px;
-        }
-
-        .header-icons {
-            display: flex;
-            align-items: center;
-        }
-
-        /* Basic responsiveness */
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 20px;
-            }
-
-            .logo {
-                margin-bottom: 15px;
-            }
-
-            .header-icons {
-                margin-top: 15px;
-                width: 100%;
-                justify-content: flex-end;
-            }
-
-            .coming-soon {
-                font-size: 48px;
-            }
-
-            .subscribe-button {
-                padding: 12px 25px;
-                font-size: 18px;
-            }
-
-            .main-content {
-                height: 400px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .coming-soon {
-                font-size: 36px;
-            }
-
-            .subscribe-button {
-                font-size: 16px;
-            }
-            .logo-text {
-                font-size: 20px;
-            }
-            .logo-small-text {
-                font-size: 12px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <span class="logo-text">DELTA</span>
-                <span class="logo-small-text">SERVICES</span>
-            </div>
-            <div class="header-icons">
-                <span class="search-icon">&#128269;</span> <span class="menu-icon">&#9776;</span> </div>
-        </header>
-        <div class="main-content">
-            <div class="content-wrapper">
-                <div class="coming-soon">Coming Soon</div>
-                <a href="#" class="subscribe-button">Subscribe for Updates</a>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        // No specific JavaScript functionality requested, but you can add it here if needed.
-        // For example, a simple form submission for the subscribe button.
-        document.querySelector('.subscribe-button').addEventListener('click', function(e) {
-            e.preventDefault();
-            alert('Thank you for your interest! We will notify you when we launch.');
-            // In a real application, you would send this to a backend service.
-        });
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Delta Services",
+        "description": "Facility Management Solutions",
+        "url": "https://deltaservices.com",
+        "logo": "https://deltaservices.com/assets/logoPng.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "",
+          "contactType": "customer service"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": ""
+        },
+        "sameAs": ["", "", ""]
+      }
     </script>
-</body>
+  </body>
 </html>
