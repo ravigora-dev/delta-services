@@ -21,10 +21,12 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col">
               <div className="flex items-baseline">
-                <span className="text-3xl font-bold text-blue-900">D</span>
-                <span className="text-xl font-bold text-blue-900">elta</span>
-                <span className="text-3xl font-bold text-blue-900 ml-2">S</span>
-                <span className="text-xl font-bold text-blue-900">ervices</span>
+                {/* <span className="text-3xl font-bold text-blue-900">D</span> */}
+                <span className="text-xl font-bold text-blue-900">DELTA</span>
+                {/* <span className="text-3xl font-bold text-blue-900 ml-2">S</span> */}
+                <span className="text-xl font-bold text-blue-900 ml-2">
+                  SERVICES
+                </span>
               </div>
             </div>
           </Link>
@@ -106,7 +108,7 @@ const Navbar = () => {
         >
           <div className="pt-4 pb-2 space-y-1 border-t border-gray-100">
             <Link
-              to="/home"
+              to="/"
               className="block px-3 py-3 text-lg font-semibold text-gray-700 hover:text-orange-500 hover:bg-orange-50 rounded-lg transition-all duration-300"
               onClick={() => setIsMenuOpen(false)}
             >

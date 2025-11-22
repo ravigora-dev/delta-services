@@ -10,7 +10,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import { logo } from "../assets/index";
+import { logo, errorTechLogo } from "../assets/index";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -51,13 +51,13 @@ const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <div className="flex items-baseline">
-                  <span className="text-3xl font-bold text-blue-900">D</span>
-                  <span className="text-xl font-bold text-blue-900">elta</span>
-                  <span className="text-3xl font-bold text-blue-900 ml-2">
-                    S
+                  {/* <span className="text-3xl font-bold text-blue-900">D</span> */}
+                  <span className="text-xl font-bold text-blue-900 ml-2">
+                    DELTA
                   </span>
-                  <span className="text-xl font-bold text-blue-900">
-                    ervices
+                  {/* <span className="text-3xl font-bold text-blue-900 ml-2">S</span> */}
+                  <span className="text-xl font-bold text-blue-900 ml-2">
+                    SERVICES
                   </span>
                 </div>
               </div>
@@ -194,8 +194,21 @@ const Footer = () => {
               <p className="text-orange-100 text-sm">
                 © {currentYear} Delta Services. All rights reserved.
               </p>
-              <p className="text-orange-200 text-xs mt-1">
-                Powered by: Error Technologies
+              <p className="text-orange-200 text-xs mt-1 flex items-center justify-center md:justify-start">
+                Powered by:
+                <a
+                  href="https://errortechnologies.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 flex items-center space-x-1 text-orange-100 hover:text-white transition-colors duration-300 font-medium text-sm underline decoration-orange-300 hover:decoration-white"
+                >
+                  <img
+                    src={errorTechLogo}
+                    alt="Error Technologies Logo"
+                    className="w-8 h-8 object-contain rounded-md"
+                  />
+                  <span>Error Technologies</span>
+                </a>
               </p>
             </div>
 

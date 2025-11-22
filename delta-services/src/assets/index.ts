@@ -29,6 +29,7 @@ import team12 from "./team12.jpeg";
 
 // Logo
 import logo from "./logoPng.png";
+import errorTechLogo from "./errortech_logo.jpeg";
 
 // Services
 import pestControl from "./pestControl.jpg";
@@ -97,6 +98,7 @@ export {
 
   // Logo
   logo,
+  errorTechLogo,
 
   // Services
   pestControl,
